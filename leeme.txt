@@ -1,0 +1,89 @@
+Productos 
+---------- POLLO------------------
+
+nombre: 1/2 Pollo asado
+precio: $15,500.00
+adiciones: + 2 papas saladas.
+img: assets/img/pollo/1.jpg
+descripcion: opcional
+
+
+nombre: 1/2 Pollo broaster
+precio: $17,500.00
+adiciones: sin adiciones
+img: assets/img/pollo/2.jpg
+descripcion:opcional
+
+
+nombre: 1/4 Asado
+precio: $9,900.00
+adiciones: sin adiciones
+img: assets/img/pollo/3.jpg
+descripcion: Combo personal 1/4 Pollo asado, 1 Papa salada, 1 Porción de arroz
+
+
+nombre: 1/4 Pollo broaster
+precio: $9,900.00
+adiciones: sin adiciones
+img: assets/img/pollo/4.jpg
+descripcion: Combo personal 1/4 pollo, 1 papa salada, porción de arroz
+
+---------------------Pizza y Pastas-----------------------------------
+
+nombre: Lasagna mixta
+precio: $13,900.00
+adiciones: sin adiciones
+img: assets/img/pizza y pastas/1.jpg
+descripcion: Lasagna mixta
+
+
+nombre: Pizza familiar
+precio: $28,900.00
+adiciones: sin adiciones
+img: assets/img/pizza y pastas/2.jpg
+descripcion: Pizza Familiar
+
+
+
+nombre: Pizza personal
+precio: $12,900.00
+adiciones: sin adiciones
+img: assets/img/pizza y pastas/3.jpg
+descripcion: Pizza personal
+
+nombre: Spaguettis
+precio: $13,900.00
+adiciones: Spaguettis + salsa bolognesa o mixta + tajada de pan gratinado + 1 Gaseosa Colombiana 400ML
+img: assets/img/pizza y pastas/4.jpg
+descripcion: opcional
+
+
+-----------------hamburguesas----------------------------------------
+
+
+nombre: TRIPLE HAMBURGUESA CON QUESO
+precio: $19,900.00
+adiciones:sin adiciones
+img: assets/img/hamburguesas/1.jpg
+descripcion: opcional	
+
+
+nombre: CUARTO DE LIBRA CON QUESO
+precio: $10,900.00
+adiciones:sin adiciones
+img: assets/img/hamburguesas/2.jpg
+descripcion: Prueba la deliciosa hamburguesa cuarto de libra con queso: la compañía perfecta para que la hamburguesa no se sienta sola.
+
+
+nombre: POLLO JR
+precio: $12,900.00
+adiciones:sin adiciones
+img: assets/img/hamburguesas/3.jpg
+descripcion: Hamburguesa de pollo apanado acompañada con lechuga y mayonesa baja engrasa.
+
+
+nombre: HAMBURGUESA
+precio: $7,900.00
+adiciones:sin adiciones
+img: assets/img/hamburguesas/4.jpg
+descripcion: Hamburguesa con pan fresco caramelizado, carne de 50 gramos, cebolla, pepinillos, salsa de tomate y mostaza intensa de McDonald's

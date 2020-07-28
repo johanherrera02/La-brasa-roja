@@ -1,0 +1,383 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <title>Pollo</title>
+        <style>
+            * {
+            padding: 0;
+            margin: 0;}
+        body{
+            text-align: center;
+        }
+        .header{
+            text-align: center;
+            background-color: #DA0A0A;
+            width:"100%";       
+            height:"10px";
+        }
+        .footer{
+                text-align: center;
+                background-color: #DA0A0A;
+                width:"100%";       
+                height:"100px";
+                }
+                .breadcrumb {
+            padding: 10px 16px;
+            list-style: none;
+            padding-top: 120px;
+            }
+            .breadcrumb li {
+            display: inline;
+            font-size: 18px;
+            padding-top: 120px;
+            }
+            .breadcrumb li+li:before {
+            padding: 8px;
+            color: black;
+            content: "/";
+            }
+            .breadcrumb li a {
+            color: #0275d8;
+            text-decoration: none;
+            }
+            .breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+            }
+            .card-h2{
+                font-size: 16px;
+            }
+            .card-p{
+                font-size: 13px;
+                color: #888888;
+            }
+            .h2-noticia{
+                font-size: 16px;
+            }
+            .p-noticia{
+                font-size: 12px;
+                color: #888888;
+            }
+          
+        </style>
+        
+    </head>
+    <body>
+        <header class="header">
+            <table width="100%">
+                <img src="img/logo.jpg" alt="" width="150px" height="90px">
+            </table>
+        </header>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Inicio</a></li>
+            <li>Pollo</li>
+        </ul>
+        <br>
+        <h1>POLLO</h1>
+        <br>
+        <br>
+        <br> 
+        <div class="container" >
+            <div class="col-md-4 ">      
+                <div class="card">
+                  <img src="img/p1.jpg" class="img-fluid" alt="" width="400px" height="300px">
+                                            <!--  -->
+                                            <div class="container">
+                  
+                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                                    <svg class="bi bi-cart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                                      </svg>
+                                                    
+                                                </button>
+                                              
+                                            
+                                                <div class="modal" id="myModal">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                    
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Comienza tu Pedido</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                      </div>
+                                                      
+                                                      <form action="ejemplo.php" method="get">
+                                                        <p>Direccion <input type="text" name="nombre" size="40"></p>
+                                                        <p>Medio de pago: <br>
+                                                          <input type="radio" name="hm" value="h"> Efectivo
+                                                          <input type="radio" name="hm" value="m"> Tarjeta
+                                                        </p>
+                                                        <p>Cantidad <input type="number" name="nacido" min="1900"></p>
+                                                      </form>
+                                                      <div class="modal-body">
+                                                          <table>
+                                                              <tr>
+                                                                 <td>
+                                                                    <button type="button" class="btn btn-primary">Cancelar</button>
+                                                                 </td>
+                                                                 <td>   
+                                                                     
+                            
+                                                                    <button type="button" class="btn btn-success">Comprar</button>  
+                            
+                                                                 </td> 
+                                                              </tr>   
+                                                            
+                                                        </table>
+                                                      </div>
+                                        
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                      </div>
+                                                      
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                
+                                              </div>
+                                 
+                                      <!--  -->
+                    <div class="card-body">
+                        <h2 class="card-h2">1/2 POLLO ASADO</h2>
+                        <br>
+                        <p class="card-p"> Pollo + 2 papas saladas </p>
+                        <br>
+                        <h2 class="card-h2">$15,500.00</h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-4 ">      
+                <div class="card">
+                  <img src="img/p2.jpg" class="img-fluid" alt="" width="400px" height="300px">
+                                          <!--  -->
+                                          <div class="container">
+                  
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                                <svg class="bi bi-cart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                                  </svg>
+                                                
+                                            </button>
+                                          
+                                        
+                                            <div class="modal" id="myModal">
+                                              <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                
+                                                  <div class="modal-header">
+                                                    <h4 class="modal-title">Comienza tu Pedido</h4>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                  </div>
+                                                  
+                                                  <form action="ejemplo.php" method="get">
+                                                    <p>Direccion <input type="text" name="nombre" size="40"></p>
+                                                    <p>Medio de pago: <br>
+                                                      <input type="radio" name="hm" value="h"> Efectivo
+                                                      <input type="radio" name="hm" value="m"> Tarjeta
+                                                    </p>
+                                                    <p>Cantidad <input type="number" name="nacido" min="1900"></p>
+                                                  </form>
+                                                  <div class="modal-body">
+                                                      <table>
+                                                          <tr>
+                                                             <td>
+                                                                <button type="button" class="btn btn-primary">Cancelar</button>
+                                                             </td>
+                                                             <td>   
+                                                                 
+                        
+                                                                <button type="button" class="btn btn-success">Comprar</button>  
+                        
+                                                             </td> 
+                                                          </tr>   
+                                                        
+                                                    </table>
+                                                  </div>
+                                    
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                          </div>
+                             
+                                  <!--  -->
+                    <div class="card-body">
+                        <h2 class="card-h2">1/2 POLLO BROASTER</h2>
+                        <br>
+                        <p class="card-p"> Ven y prueba nuestro delicioso pollo broaster</p>
+                        <br>
+                        <h2 class="card-h2">$17,500.00</h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-4 ">      
+                <div class="card">
+                  <img src="img/p3.jpg"  class="img-fluid" alt="" width="400px" height="300px">
+                                           <!--  -->
+                                           <div class="container">
+                  
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                                <svg class="bi bi-cart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                                  </svg>
+                                                
+                                            </button>
+                                          
+                                        
+                                            <div class="modal" id="myModal">
+                                              <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                
+                                                  <div class="modal-header">
+                                                    <h4 class="modal-title">Comienza tu Pedido</h4>
+                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                  </div>
+                                                  
+                                                  <form action="ejemplo.php" method="get">
+                                                    <p>Direccion <input type="text" name="nombre" size="40"></p>
+                                                    <p>Medio de pago: <br>
+                                                      <input type="radio" name="hm" value="h"> Efectivo
+                                                      <input type="radio" name="hm" value="m"> Tarjeta
+                                                    </p>
+                                                    <p>Cantidad <input type="number" name="nacido" min="1900"></p>
+                                                  </form>
+                                                  <div class="modal-body">
+                                                      <table>
+                                                          <tr>
+                                                             <td>
+                                                                <button type="button" class="btn btn-primary">Cancelar</button>
+                                                             </td>
+                                                             <td>   
+                                                                 
+                        
+                                                                <button type="button" class="btn btn-success">Comprar</button>  
+                        
+                                                             </td> 
+                                                          </tr>   
+                                                        
+                                                    </table>
+                                                  </div>
+                                    
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                  </div>
+                                                  
+                                                </div>
+                                              </div>
+                                            </div>
+                                            
+                                          </div>
+                             
+                                  <!--  -->
+                    <div class="card-body">
+                        <h2 class="card-h2">1/4 ASADO</h2>
+                        <br>
+                        <p class="card-p"> Combo personal 1/4 Pollo asado, 1 Papa salada, 1 Porción de arroz </p>
+                        <br>
+                        <h2 class="card-h2">$9,900.00</h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-md-4 ">      
+                <div class="card">
+                  <img src="img/p4.jpg" class="img-fluid" alt="" width="400px" height="300px">
+                                            <!--  -->
+                                            <div class="container">
+                  
+                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                                    <svg class="bi bi-cart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                                                      </svg>
+                                                    
+                                                </button>
+                                              
+                                            
+                                                <div class="modal" id="myModal">
+                                                  <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                    
+                                                      <div class="modal-header">
+                                                        <h4 class="modal-title">Comienza tu Pedido</h4>
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                      </div>
+                                                      
+                                                      <form action="ejemplo.php" method="get">
+                                                        <p>Direccion <input type="text" name="nombre" size="40"></p>
+                                                        <p>Medio de pago: <br>
+                                                          <input type="radio" name="hm" value="h"> Efectivo
+                                                          <input type="radio" name="hm" value="m"> Tarjeta
+                                                        </p>
+                                                        <p>Cantidad <input type="number" name="nacido" min="1900"></p>
+                                                      </form>
+                                                      <div class="modal-body">
+                                                          <table>
+                                                              <tr>
+                                                                 <td>
+                                                                    <button type="button" class="btn btn-primary">Cancelar</button>
+                                                                 </td>
+                                                                 <td>   
+                                                                     
+                            
+                                                                    <button type="button" class="btn btn-success">Comprar</button>  
+                            
+                                                                 </td> 
+                                                              </tr>   
+                                                            
+                                                        </table>
+                                                      </div>
+                                        
+                                                      <div class="modal-footer">
+                                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                                      </div>
+                                                      
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                
+                                              </div>
+                                 
+                                      <!--  -->
+                    <div class="card-body">
+                        <h2 class="card-h2">1/2 POLLO BROASTER</h2>
+                        <br>
+                        <p class="card-p"> Combo personal 1/4 pollo, 1 papa salada, porción de arroz</p>
+                        <br>
+                        <h2 class="card-h2">$9,900.00</h2>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+        </div>
+        
+        <footer class="footer">
+            <table width="100%">  
+                <br>
+                <p style="color:white">Políticas de tratamiento de la información y privacidad</p>
+                <br>   
+            </table>
+        </footer>
+    </body>
+</html>

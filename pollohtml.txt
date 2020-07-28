@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        padding: 0;
+        margin: 0;}
+    .header{
+        text-align: center;
+        background-color: #DA0A0A;
+        width:"100%";       
+        height:"100px";
+    }
+    .footer{
+            text-align: center;
+            background-color: #DA0A0A;
+            width:"100%";       
+            height:"100px";
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <table width="100%">
+            <img src="img/logo.jpg" alt="" width="150px" height="90px">
+        </table>
+    </header>
+    <br>
+    <br>
+    <br>
+    <footer class="footer">
+        <table width="100%">  
+            <br>
+            <p style="color:white">Políticas de tratamiento de la información y privacidad</p>
+            <br>   
+        </table>
+    </footer>
+</body>
+</html>
